@@ -101,7 +101,7 @@ body {
   &__main-pic {
     margin-bottom: 20px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 999px;
   }
 
   &__content {
@@ -149,6 +149,10 @@ body {
   @include container;
   padding-top: 56px;
   padding-bottom: 120px;
+
+  img{
+    border-radius: 6px;
+  }
 
   &__title {
     @include title;

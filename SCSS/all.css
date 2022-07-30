@@ -151,9 +151,6 @@ body img:hover {
   padding-top: 56px;
   font-weight: 500;
 }
-.about img {
-  border-radius: 4px;
-}
 .about__title {
   font-weight: 500;
   font-size: 64px;
@@ -164,7 +161,7 @@ body img:hover {
 .about__main-pic {
   margin-bottom: 20px;
   width: 400px;
-  border-radius: 10px;
+  border-radius: 999px;
 }
 .about__content {
   font-size: 24px;
@@ -209,7 +206,7 @@ body img:hover {
   padding-bottom: 120px;
 }
 .brand img {
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .brand__title {
   font-weight: 500;
@@ -268,9 +265,6 @@ body img:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 64px 0;
-}
-.contact img {
-  border-radius: 4px;
 }
 .contact__title {
   font-weight: 500;
