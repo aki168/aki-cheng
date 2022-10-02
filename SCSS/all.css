@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -79,7 +79,7 @@ a:hover {
 }
 
 body {
-  font-family: "Noto Sans TC", "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Zen Kaku Gothic New", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
   color: #595757;
   line-height: 1.5;
 }
@@ -152,7 +152,7 @@ body img:hover {
   font-weight: 500;
 }
 .about__title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 64px;
   color: rgba(20, 80, 84, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -164,26 +164,27 @@ body img:hover {
   border-radius: 999px;
 }
 .about__content {
-  font-size: 24px;
   padding-bottom: 24px;
 }
 .about__content--profile {
+  font-size: 24px;
   line-height: 42px;
   margin-bottom: 8px;
 }
-.about__content--school {
+.about__content--info {
+  font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
 }
 .about__list {
   margin: 0 auto;
-  width: 384px;
+  max-width: 450px;
   border-top: 1px solid black;
   padding: 28px 0;
 }
 .about__list li {
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 28px;
 }
 .about__list i {
@@ -209,7 +210,7 @@ body img:hover {
   border-radius: 6px;
 }
 .brand__title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 64px;
   color: rgba(20, 80, 84, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -267,7 +268,7 @@ body img:hover {
   padding: 64px 0;
 }
 .contact__title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 64px;
   color: rgba(20, 80, 84, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

@@ -105,15 +105,16 @@ body {
   }
 
   &__content {
-    font-size: 24px;
     padding-bottom: 24px;
 
     &--profile {
+      font-size: 24px;
       line-height: 42px;
       margin-bottom: 8px;
     }
 
-    &--school {
+    &--info {
+      font-size: 24px;
       line-height: 36px;
       margin-bottom: 16px;
     }
@@ -121,13 +122,13 @@ body {
 
   &__list {
     margin: 0 auto;
-    width: 384px;
+    max-width: 450px;
     border-top: 1px solid black;
     padding: 28px 0;
 
     li {
-      font-size: 24px;
-      line-height: 42px;
+      font-size: 20px;
+      line-height: 30px;
       margin-bottom: 28px;
     }
 
