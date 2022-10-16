@@ -75,7 +75,7 @@ a {
   font-size: 24px;
 }
 a:hover {
-  color: rgba(20, 80, 84, 0.6);
+  color: rgba(44, 116, 121, 0.6);
 }
 
 body {
@@ -148,13 +148,15 @@ body img:hover {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 56px;
   font-weight: 500;
 }
 .about__title {
   font-weight: 700;
   font-size: 64px;
-  color: rgba(20, 80, 84, 0.6);
+  color: rgba(44, 116, 121, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 40px;
 }
@@ -172,7 +174,7 @@ body img:hover {
   margin-bottom: 8px;
 }
 .about__content--info {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   margin-bottom: 16px;
 }
@@ -183,7 +185,7 @@ body img:hover {
   padding: 28px 0;
 }
 .about__list li {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: 28px;
 }
@@ -192,7 +194,7 @@ body img:hover {
 }
 
 .brand--wrap {
-  background: #d2d8da;
+  background: #f5f7f8;
 }
 
 .brand--wrap-none {
@@ -203,6 +205,8 @@ body img:hover {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 56px;
   padding-bottom: 120px;
 }
@@ -212,7 +216,7 @@ body img:hover {
 .brand__title {
   font-weight: 700;
   font-size: 64px;
-  color: rgba(20, 80, 84, 0.6);
+  color: rgba(44, 116, 121, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .brand__subtitle {
@@ -265,12 +269,14 @@ body img:hover {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
   padding: 64px 0;
 }
 .contact__title {
   font-weight: 700;
   font-size: 64px;
-  color: rgba(20, 80, 84, 0.6);
+  color: rgba(44, 116, 121, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 16px;
 }
