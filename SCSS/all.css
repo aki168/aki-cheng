@@ -174,8 +174,8 @@ body img:hover {
   margin-bottom: 8px;
 }
 .about__content--info {
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 2;
   margin-bottom: 16px;
 }
 .about__list {
